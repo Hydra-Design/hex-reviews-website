@@ -7,7 +7,7 @@ function breath(node){
             translateY: -5,
             duration: 5000,
             easing: 'easeInOutQuad',
-            boxShadow: 'rgba(255,255,255, .4) 0px 0px 50px 5px',
+            boxShadow: 'rgba(128,43,177, .8) 0px 0px 50px 5px',
             complete: function(){
                 down()
             }
@@ -18,7 +18,7 @@ function breath(node){
             targets: node,
             translateY: 0,
             duration: 5000,
-            boxShadow: 'rgba(255,255,255, .4) 0px 0px 50px -5px',
+            boxShadow: 'rgba(128,43,177, .8) 0px 0px 50px -5px',
             easing: 'easeInOutQuad',
             complete:function(){
                 up()
